@@ -1,0 +1,30 @@
+.react-geocoder {
+    position: relative;
+    width: 300px;
+    margin:  0 auto;
+    padding-top: 10px;
+    z-index: 111;
+}
+
+.react-geocoder input {
+    width: 100%;
+    padding: 6px;
+    border: 1px solid #b5b5b5;
+    z-index: 111;
+}
+
+.react-geocoder-results {
+    position: absolute;
+    top: 100%;
+    left: 0;
+     z-index: 111;
+    background-color: white;
+    border: 1px solid grey;
+    width: 100%;
+}
+
+.react-geocoder-item {
+    color: grey;
+    padding: 4px;
+    border-bottom: 1px solid black;
+}
